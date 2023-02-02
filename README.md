@@ -11,12 +11,16 @@ Total accumulated precipitation
 I have implemented REST API using Django framework for creating two end points
 I have perfomred testing by running in my local host location 
 /api/weather
+
 To Laod data to database from a file or directory of files
 
 /api/weather/stats
 loading data to weather stats successfully 
 
-#Steps to execute
+
+
+
+#Steps to execute in Command Prompt
 
 ##create venv and activate it
 
@@ -41,6 +45,13 @@ python manage.py load_weather --directory=<path of weatherstation files>
 #####Calcuate weather stats
 
 python manage.py agg_weather_report  # Weather report based upon data in database
+
+
+
+
+
+
+
 
 
 
